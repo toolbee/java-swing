@@ -190,8 +190,16 @@ public class Macro extends javax.swing.JFrame {
 										.addGap(0, 0, Short.MAX_VALUE)))
 						.addContainerGap())
 				.addGroup(layout.createSequentialGroup()
-						.addGap(24, 24, 24)
+						.addGap(12, 12 ,12)
 						.addComponent(jLabel1)
+						.addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+				.addGroup(layout.createSequentialGroup()
+						.addGap(12, 12, 12)
+						.addComponent(productLabel)
+						.addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+				.addGroup(layout.createSequentialGroup()
+						.addGap(12, 12, 12)
+						.addComponent(productNameField)
 						.addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
 				);
 		layout.setVerticalGroup(
@@ -199,6 +207,12 @@ public class Macro extends javax.swing.JFrame {
 				.addGroup(layout.createSequentialGroup()
 						.addGap(7, 7, 7)
 						.addComponent(jLabel1)
+						.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+						.addGap(7, 7, 7)
+						.addComponent(productLabel)
+						.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+						.addGap(7, 7, 7)
+						.addComponent(productNameField)
 						.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
 						.addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
 						.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -231,12 +245,6 @@ public class Macro extends javax.swing.JFrame {
 
 	private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {                                      
 		// TODO add your handling code here:
-
-		JOptionPane.showMessageDialog(null, "내용 제거");
-
-		JOptionPane.showMessageDialog(null, "내용 제거");
-
-		JOptionPane.showMessageDialog(null, "내용 제거");
 
 		JOptionPane.showMessageDialog(null, "내용 제거");
 
