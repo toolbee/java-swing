@@ -7,3 +7,4 @@ For building and running the application you need:
 
 ### Stack
 - Java Swing
+- java.awt.Robot
